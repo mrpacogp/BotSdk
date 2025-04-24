@@ -1,0 +1,38 @@
+﻿enum ESpell { Fire, Lightning, Ice, Swamp, Holy }
+
+component Spell
+{
+	ESpell SpellType;
+	FP ApplyToTarget;
+	FP ApplyToOthers;
+	FP Radius;
+	FP Speed;
+	[HideInInspector] EntityRef TargetEntity;
+	AssetRef<EntityPrototype> SpellSequence;
+}
+
+component SpeedModifier
+{
+	FP Multiplier;
+	FP Time;
+}
+
+component SpeedSpell
+{
+	ESpell SpellType;
+	FP SpeedMultiplier;
+	FP MultiplierDuration;
+	FP TTL;
+}
+
+signal OnSpellUsed(EntityRef casterEntity, ESpell spellType);
+
+event OnSpellUsed
+{
+}
+
+event OnEnemyFreeze
+{ 
+	EntityRef Entity;
+	ESpell SpellType;
+}

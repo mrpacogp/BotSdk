@@ -1,0 +1,581 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6457952512597340699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1943870150, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: State_Choose_lhmbAOoUm0KI061
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|State_Choose_lhmbAOoUm0KI061
+    Guid:
+      Value: 415182397265773810
+  Label: Choose
+  Index: 2
+  OnUpdateLinks: []
+  OnEnterLinks:
+  - Id:
+      Value: 2301657569280510517
+  - Id:
+      Value: 894074335824034712
+  OnExitLinks: []
+  Transitions:
+  - Id: 7a323688-7a9c-424b-9974-b53831466034
+    EventKey: 0
+    DecisionLink:
+      Id:
+        Value: 2470029992444953340
+    StateLink:
+      Id:
+        Value: 4367626473759101840
+    TransitionSetLink:
+      Id:
+        Value: 0
+  ChildrenLinks: []
+  ParentLink:
+    Id:
+      Value: 0
+  Level: 0
+--- !u!114 &-5886596352299502915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 43192859, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: TrueDecision_yzFoxGwlREGURyL
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|TrueDecision_yzFoxGwlREGURyL
+    Guid:
+      Value: 2470029992444953340
+  Label: 
+--- !u!114 &-5646599687713863693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6698074c9441a42aa63d88075b3ebb, type: 3}
+  m_Name: DeliverCollectibleAction_FBp8Ch-jq0-H_h7
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|DeliverCollectibleAction_FBp8Ch-jq0-H_h7
+    Guid:
+      Value: 226970481612988451
+  Label: 
+--- !u!114 &-3411997696485276366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2618f8faf5fa84bae2a621719b5c5b, type: 3}
+  m_Name: CheckHasCollectible_Qn59yYC9OEykXP4
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|CheckHasCollectible_Qn59yYC9OEykXP4
+    Guid:
+      Value: 1641350616230623897
+  Label: 
+--- !u!114 &-2562745018122526494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1084331888, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: HFSMNotDecision_kx0edtq5KkmhSOd
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|HFSMNotDecision_kx0edtq5KkmhSOd
+    Guid:
+      Value: 26044280555436397
+  Label: 
+  Decisions:
+  - Id:
+      Value: 1641350616230623897
+--- !u!114 &-961841357231839161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1084331888, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: HFSMNotDecision_tby3-VjXY0evvbC
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|HFSMNotDecision_tby3-VjXY0evvbC
+    Guid:
+      Value: 3384067041136242142
+  Label: 
+  Decisions:
+  - Id:
+      Value: 396045907540103328
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1727795870, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: CollectorHFSM
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM
+    Guid:
+      Value: 2011324127871153002
+  Label: 
+  StatesLinks:
+  - Id:
+      Value: 415182397265773810
+  - Id:
+      Value: 4367626473759101840
+  - Id:
+      Value: 3527842348051315155
+  - Id:
+      Value: 833653448371046745
+  - Id:
+      Value: 26529799081000346
+  EventsNames: []
+--- !u!114 &262202434419859469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c38e417d47734645b53cd108fd38aa5, type: 3}
+  m_Name: StopMovingAction_kNTdK7pGkECdjsP
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|StopMovingAction_kNTdK7pGkECdjsP
+    Guid:
+      Value: 490120032023811416
+  Label: 
+--- !u!114 &723035642231322852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1943870150, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: State_BreakTime_X8GAh5bT4k6DxSw
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|State_BreakTime_X8GAh5bT4k6DxSw
+    Guid:
+      Value: 833653448371046745
+  Label: BreakTime
+  Index: 3
+  OnUpdateLinks: []
+  OnEnterLinks:
+  - Id:
+      Value: 3834285535646523217
+  - Id:
+      Value: 490120032023811416
+  OnExitLinks: []
+  Transitions:
+  - Id: e9b11a51-ad53-458e-b9e1-20e2b5e08f83
+    EventKey: 0
+    DecisionLink:
+      Id:
+        Value: 764732636311929598
+    StateLink:
+      Id:
+        Value: 415182397265773810
+    TransitionSetLink:
+      Id:
+        Value: 0
+  ChildrenLinks: []
+  ParentLink:
+    Id:
+      Value: 0
+  Level: 0
+--- !u!114 &1755405264531085306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b274abdeecfdf544091dfc79238bcf58, type: 3}
+  m_Name: ChooseCollectibleAction_l7OtGEdPvkG7kY5
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|ChooseCollectibleAction_l7OtGEdPvkG7kY5
+    Guid:
+      Value: 894074335824034712
+  Label: 
+--- !u!114 &2340565438516867163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1943870150, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: State_DeliverPickup_Bh-9GUoCCEuQYBF
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|State_DeliverPickup_Bh-9GUoCCEuQYBF
+    Guid:
+      Value: 3527842348051315155
+  Label: DeliverPickup
+  Index: 0
+  OnUpdateLinks:
+  - Id:
+      Value: 226970481612988451
+  OnEnterLinks: []
+  OnExitLinks:
+  - Id:
+      Value: 313021203496315025
+  Transitions:
+  - Id: 9696f2d5-bd39-4fe2-904c-20d0d07a5ece
+    EventKey: 0
+    DecisionLink:
+      Id:
+        Value: 26044280555436397
+    StateLink:
+      Id:
+        Value: 26529799081000346
+    TransitionSetLink:
+      Id:
+        Value: 0
+  ChildrenLinks: []
+  ParentLink:
+    Id:
+      Value: 0
+  Level: 0
+--- !u!114 &2498642544778186976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e0a96b8f5b1d004c9be70207e65afb5, type: 3}
+  m_Name: CheckCollectibleExists_5fBrjVQ5CUGgUHB
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|CheckCollectibleExists_5fBrjVQ5CUGgUHB
+    Guid:
+      Value: 396045907540103328
+  Label: 
+--- !u!114 &2791954357029241857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c38e417d47734645b53cd108fd38aa5, type: 3}
+  m_Name: StopMovingAction__nqq_at9JkKdFaP
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|StopMovingAction__nqq_at9JkKdFaP
+    Guid:
+      Value: 2301657569280510517
+  Label: 
+--- !u!114 &4155366405908577197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1723218811, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: IncreaseBlackboardInt_wq_5tKnqGEmsWlC
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|IncreaseBlackboardInt_wq_5tKnqGEmsWlC
+    Guid:
+      Value: 313021203496315025
+  Label: 
+  Key:
+    Key: TokensReturned
+  IncrementAmount:
+    Source: 1
+    Key: 
+    DefaultValue: 1
+    FunctionRef:
+      Id:
+        Value: 0
+--- !u!114 &4398758100020711461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1627827125, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: TimerDecision_hxceqXekK0KmQuQ
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|TimerDecision_hxceqXekK0KmQuQ
+    Guid:
+      Value: 764732636311929598
+  Label: 
+  TimeToTrueState:
+    Source: 2
+    Key: RestDuration
+    DefaultValue:
+      RawValue: 131072
+    FunctionRef:
+      Id:
+        Value: 0
+--- !u!114 &4708635146511538462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1943870150, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: State_SeekPickup_XOAUhdyZZUS4tHc
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|State_SeekPickup_XOAUhdyZZUS4tHc
+    Guid:
+      Value: 4367626473759101840
+  Label: SeekPickup
+  Index: 1
+  OnUpdateLinks:
+  - Id:
+      Value: 2948202281121739668
+  OnEnterLinks: []
+  OnExitLinks: []
+  Transitions:
+  - Id: 554e7eca-7467-4b10-9abf-a9cb900f4dc4
+    EventKey: 0
+    DecisionLink:
+      Id:
+        Value: 3290693499293950121
+    StateLink:
+      Id:
+        Value: 3527842348051315155
+    TransitionSetLink:
+      Id:
+        Value: 0
+  - Id: b95a005c-666f-4068-9351-ca634bc81ddc
+    EventKey: 0
+    DecisionLink:
+      Id:
+        Value: 3384067041136242142
+    StateLink:
+      Id:
+        Value: 415182397265773810
+    TransitionSetLink:
+      Id:
+        Value: 0
+  ChildrenLinks: []
+  ParentLink:
+    Id:
+      Value: 0
+  Level: 0
+--- !u!114 &4845229928943727592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 694471831, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: CheckBlackboardInt_rUZZnAmaBEG0PEo
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|CheckBlackboardInt_rUZZnAmaBEG0PEo
+    Guid:
+      Value: 2791491756957529163
+  Label: 
+  Key:
+    Key: TokensReturned
+  Comparison: 3
+  DesiredValue:
+    Source: 1
+    Key: 
+    DefaultValue: 3
+    FunctionRef:
+      Id:
+        Value: 0
+--- !u!114 &6167302072662292763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2618f8faf5fa84bae2a621719b5c5b, type: 3}
+  m_Name: CheckHasCollectible_zzTSzG-PIEOG_97
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|CheckHasCollectible_zzTSzG-PIEOG_97
+    Guid:
+      Value: 3290693499293950121
+  Label: 
+--- !u!114 &6854917177060983292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1943870150, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: State_CheckLimitReached_Ku9HNyJPgkOFDbp
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|State_CheckLimitReached_Ku9HNyJPgkOFDbp
+    Guid:
+      Value: 26529799081000346
+  Label: CheckLimitReached
+  Index: 4
+  OnUpdateLinks: []
+  OnEnterLinks: []
+  OnExitLinks: []
+  Transitions:
+  - Id: 3ae9c590-8e29-4077-abe4-c6902b6ee65f
+    EventKey: 0
+    DecisionLink:
+      Id:
+        Value: 4416348472217903229
+    StateLink:
+      Id:
+        Value: 415182397265773810
+    TransitionSetLink:
+      Id:
+        Value: 0
+  - Id: 294e63a9-b521-4b20-accf-2aafb2fbc700
+    EventKey: 0
+    DecisionLink:
+      Id:
+        Value: 2791491756957529163
+    StateLink:
+      Id:
+        Value: 833653448371046745
+    TransitionSetLink:
+      Id:
+        Value: 0
+  ChildrenLinks: []
+  ParentLink:
+    Id:
+      Value: 0
+  Level: 0
+--- !u!114 &7168255189064654306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c421a279153503418dbdc1afc0d4366, type: 3}
+  m_Name: PickupCollectibleAction_S26JVaOeXkG_h-N
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|PickupCollectibleAction_S26JVaOeXkG_h-N
+    Guid:
+      Value: 2948202281121739668
+  Label: 
+--- !u!114 &7397270965942718716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -42235220, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: SetBlackboardInt_reTD_WCSEE2DBKZ
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|SetBlackboardInt_reTD_WCSEE2DBKZ
+    Guid:
+      Value: 3834285535646523217
+  Label: 
+  Key:
+    Key: TokensReturned
+  Value:
+    Source: 1
+    Key: 
+    DefaultValue: 0
+    FunctionRef:
+      Id:
+        Value: 0
+--- !u!114 &7651732387761931814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 694471831, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: CheckBlackboardInt_QA1XCyArv0-T27r
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/HFSM_Assets/CollectorHFSM|CheckBlackboardInt_QA1XCyArv0-T27r
+    Guid:
+      Value: 4416348472217903229
+  Label: 
+  Key:
+    Key: TokensReturned
+  Comparison: 1
+  DesiredValue:
+    Source: 1
+    Key: 
+    DefaultValue: 3
+    FunctionRef:
+      Id:
+        Value: 0

@@ -1,0 +1,2583 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9170023182986013602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_mLVrCMkPnkmLlTQ
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_mLVrCMkPnkmLlTQ
+    Guid:
+      Value: 1865592537838157680
+  Input:
+    Source: 1
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 0
+  Curve:
+    Samples:
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 65536
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &-9017538539374946067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -559968234, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: Consideration_Consider Healing_LOx_JY3iOEmcXe2
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_Consider
+      Healing_LOx_JY3iOEmcXe2
+    Guid:
+      Value: 1506711542116276609
+  Label: Consider Healing
+  RankRef:
+    Id:
+      Value: 0
+  CommitmentRef:
+    Id:
+      Value: 0
+  NextConsiderationsRefs: []
+  OnEnterActionsRefs:
+  - Id:
+      Value: 1308336231555509791
+  OnUpdateActionsRefs: []
+  OnExitActionsRefs: []
+  ResponseCurvePacks:
+  - ResponseCurveRef:
+      Id:
+        Value: 4368371598511292215
+  - ResponseCurveRef:
+      Id:
+        Value: 2865126109833982519
+  - ResponseCurveRef:
+      Id:
+        Value: 890667356463697764
+  BaseScore:
+    RawValue: 0
+  MomentumData:
+    Value: 0
+    DecayAmount: 0
+  UseNestedMomentum: 0
+  Cooldown:
+    RawValue: 0
+  CooldownCancelsMomentum: 1
+  Depth: 1
+--- !u!114 &-8691441445037962042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38db39dbf60f0a4ea9f5e4458bcb883, type: 3}
+  m_Name: UseSpellAction_qNg7M8PZlkiRT1f
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|UseSpellAction_qNg7M8PZlkiRT1f
+    Guid:
+      Value: 1308336231555509791
+  Label: 
+  Spell:
+    Id:
+      Value: 1523701862969548454
+  TargetEntity:
+    Key: CastleEntity
+--- !u!114 &-8628731096705412692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6e6ef9b06bdd94196e7116323ac560, type: 3}
+  m_Name: InputAgglomerationCount_X5WGr4Iyr0ecF7S
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_X5WGr4Iyr0ecF7S
+    Guid:
+      Value: 4379328174910511222
+  AgglomerationCount:
+    Key: AgglomerationCount
+--- !u!114 &-8625341453440005024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_MLbmfiNEBk6nUlz
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_MLbmfiNEBk6nUlz
+    Guid:
+      Value: 3553511619898309890
+  Input:
+    Source: 4
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 2887845231851875041
+  Curve:
+    Samples:
+    - RawValue: 65536
+    - RawValue: 65260
+    - RawValue: 65062
+    - RawValue: 64921
+    - RawValue: 64821
+    - RawValue: 64740
+    - RawValue: 64659
+    - RawValue: 64561
+    - RawValue: 64424
+    - RawValue: 64231
+    - RawValue: 63962
+    - RawValue: 63597
+    - RawValue: 63119
+    - RawValue: 62507
+    - RawValue: 61742
+    - RawValue: 60805
+    - RawValue: 59677
+    - RawValue: 58339
+    - RawValue: 56772
+    - RawValue: 54956
+    - RawValue: 52872
+    - RawValue: 50501
+    - RawValue: 47824
+    - RawValue: 44822
+    - RawValue: 41475
+    - RawValue: 37765
+    - RawValue: 33672
+    - RawValue: 29177
+    - RawValue: 24260
+    - RawValue: 18904
+    - RawValue: 13087
+    - RawValue: 6792
+    - RawValue: 0
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 1638400
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: -211366
+      OutTangent:
+        RawValue: -410
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 1638400
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: -9021
+      OutTangent:
+        RawValue: -9021
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &-8238166067781537566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_uU-cPFI8YEi4Mes
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_uU-cPFI8YEi4Mes
+    Guid:
+      Value: 2174552693583499731
+  Input:
+    Source: 4
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 3966562886545922573
+  Curve:
+    Samples:
+    - RawValue: 65536
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 65536
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 1
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 655
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 1
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &-8157816655088186381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6e6ef9b06bdd94196e7116323ac560, type: 3}
+  m_Name: InputAgglomerationCount_l3Pw_QRmiUugOnx
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_l3Pw_QRmiUugOnx
+    Guid:
+      Value: 489604183328813417
+  AgglomerationCount:
+    Key: AgglomerationCount
+--- !u!114 &-7198860663004252726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_yd_9pQ-uqk6MyP0
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_yd_9pQ-uqk6MyP0
+    Guid:
+      Value: 4368371598511292215
+  Input:
+    Source: 4
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 3736867459741469005
+  Curve:
+    Samples:
+    - RawValue: 65536
+    - RawValue: 65538
+    - RawValue: 65535
+    - RawValue: 65515
+    - RawValue: 65466
+    - RawValue: 65373
+    - RawValue: 65225
+    - RawValue: 65009
+    - RawValue: 64711
+    - RawValue: 64320
+    - RawValue: 63822
+    - RawValue: 63204
+    - RawValue: 62454
+    - RawValue: 61559
+    - RawValue: 60507
+    - RawValue: 59283
+    - RawValue: 57877
+    - RawValue: 56274
+    - RawValue: 54462
+    - RawValue: 52428
+    - RawValue: 50160
+    - RawValue: 47645
+    - RawValue: 44869
+    - RawValue: 41821
+    - RawValue: 38487
+    - RawValue: 34855
+    - RawValue: 30911
+    - RawValue: 26644
+    - RawValue: 22040
+    - RawValue: 17086
+    - RawValue: 11770
+    - RawValue: 6079
+    - RawValue: 0
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 1310720
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 1310720
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: -10043
+      OutTangent:
+        RawValue: -10043
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &-7037547725962883500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -559968234, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: Consideration_Consider Casting Fireball_Ly0YAF0X-US2T29
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_Consider
+      Casting Fireball_Ly0YAF0X-US2T29
+    Guid:
+      Value: 642371157648703809
+  Label: Consider Casting Fireball
+  RankRef:
+    Id:
+      Value: 0
+  CommitmentRef:
+    Id:
+      Value: 0
+  NextConsiderationsRefs: []
+  OnEnterActionsRefs:
+  - Id:
+      Value: 1189962413294542220
+  OnUpdateActionsRefs: []
+  OnExitActionsRefs: []
+  ResponseCurvePacks:
+  - ResponseCurveRef:
+      Id:
+        Value: 4425855700688186480
+  - ResponseCurveRef:
+      Id:
+        Value: 2174552693583499731
+  BaseScore:
+    RawValue: 0
+  MomentumData:
+    Value: 0
+    DecayAmount: 0
+  UseNestedMomentum: 0
+  Cooldown:
+    RawValue: 0
+  CooldownCancelsMomentum: 1
+  Depth: 2
+--- !u!114 &-6390716100837299782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_jcJGlkR_VUKBqBy
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_jcJGlkR_VUKBqBy
+    Guid:
+      Value: 1257784644588916051
+  Input:
+    Source: 4
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 489604183328813417
+  Curve:
+    Samples:
+    - RawValue: 0
+    - RawValue: 2048
+    - RawValue: 4096
+    - RawValue: 6144
+    - RawValue: 8192
+    - RawValue: 10240
+    - RawValue: 12288
+    - RawValue: 14336
+    - RawValue: 16384
+    - RawValue: 18432
+    - RawValue: 20480
+    - RawValue: 22528
+    - RawValue: 24576
+    - RawValue: 26624
+    - RawValue: 28672
+    - RawValue: 30720
+    - RawValue: 32768
+    - RawValue: 34816
+    - RawValue: 36864
+    - RawValue: 38912
+    - RawValue: 40960
+    - RawValue: 43008
+    - RawValue: 45056
+    - RawValue: 47104
+    - RawValue: 49152
+    - RawValue: 51200
+    - RawValue: 53248
+    - RawValue: 55296
+    - RawValue: 57344
+    - RawValue: 59392
+    - RawValue: 61440
+    - RawValue: 63488
+    - RawValue: 65536
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 65536
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 65536
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: 65536
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &-6293655045118242992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_x_7H9FGKCEWnjcu
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_x_7H9FGKCEWnjcu
+    Guid:
+      Value: 890667356463697764
+  Input:
+    Source: 4
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 4068956359966772743
+  Curve:
+    Samples:
+    - RawValue: 65536
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 65536
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: -3276800
+      OutTangent:
+        RawValue: 1
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 1310
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: -3276800
+      OutTangent:
+        RawValue: 1
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &-6180963320257028871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -559968234, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: Consideration_Consider Casting Swampball_gk3TEXCi5ky4YkN
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_Consider
+      Casting Swampball_gk3TEXCi5ky4YkN
+    Guid:
+      Value: 2070399489796205725
+  Label: Consider Casting Swampball
+  RankRef:
+    Id:
+      Value: 0
+  CommitmentRef:
+    Id:
+      Value: 0
+  NextConsiderationsRefs: []
+  OnEnterActionsRefs:
+  - Id:
+      Value: 2363521499332721459
+  OnUpdateActionsRefs: []
+  OnExitActionsRefs: []
+  ResponseCurvePacks:
+  - ResponseCurveRef:
+      Id:
+        Value: 2207138502543241031
+  - ResponseCurveRef:
+      Id:
+        Value: 1257784644588916051
+  - ResponseCurveRef:
+      Id:
+        Value: 2446569137576584609
+  BaseScore:
+    RawValue: 0
+  MomentumData:
+    Value: 0
+    DecayAmount: 0
+  UseNestedMomentum: 0
+  Cooldown:
+    RawValue: 0
+  CooldownCancelsMomentum: 1
+  Depth: 2
+--- !u!114 &-5929826858342996985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_Ve2oPOQzmk6sDNQ
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_Ve2oPOQzmk6sDNQ
+    Guid:
+      Value: 237941480966761824
+  Input:
+    Source: 1
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 0
+  Curve:
+    Samples:
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 65536
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &-5877450022426076368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_niQQKGsbMEuJl8T
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_niQQKGsbMEuJl8T
+    Guid:
+      Value: 2668171207778741252
+  Input:
+    Source: 4
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 2521054863770404250
+  Curve:
+    Samples:
+    - RawValue: 65536
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 65536
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 1
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 655
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 1
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &-5670078798652522150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -559968234, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: Consideration_Consider Casting_w_Jwi4niZ0OXteI
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_Consider
+      Casting_w_Jwi4niZ0OXteI
+    Guid:
+      Value: 2493597864792469655
+  Label: Consider Casting
+  RankRef:
+    Id:
+      Value: 0
+  CommitmentRef:
+    Id:
+      Value: 0
+  NextConsiderationsRefs:
+  - Id:
+      Value: 2070399489796205725
+  - Id:
+      Value: 2204570101796877534
+  - Id:
+      Value: 982970461555512880
+  - Id:
+      Value: 642371157648703809
+  - Id:
+      Value: 4239996338628359049
+  OnEnterActionsRefs: []
+  OnUpdateActionsRefs: []
+  OnExitActionsRefs: []
+  ResponseCurvePacks:
+  - ResponseCurveRef:
+      Id:
+        Value: 385507409559676481
+  BaseScore:
+    RawValue: 0
+  MomentumData:
+    Value: 0
+    DecayAmount: 0
+  UseNestedMomentum: 0
+  Cooldown:
+    RawValue: 65536
+  CooldownCancelsMomentum: 1
+  Depth: 1
+--- !u!114 &-5656727128318414872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4444d395175cd1c43bfa5d1b345867f4, type: 3}
+  m_Name: AnyCollectibleExistFunction_XoCxbsq8BUa3E-J
+  m_EditorClassIdentifier: 
+--- !u!114 &-5374914487075381403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -559968234, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: Consideration_Consider Scanning_xR-2NnEkKUqm7uk
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_Consider
+      Scanning_xR-2NnEkKUqm7uk
+    Guid:
+      Value: 1903294386682274774
+  Label: Consider Scanning
+  RankRef:
+    Id:
+      Value: 0
+  CommitmentRef:
+    Id:
+      Value: 0
+  NextConsiderationsRefs: []
+  OnEnterActionsRefs:
+  - Id:
+      Value: 1075579874672820776
+  OnUpdateActionsRefs: []
+  OnExitActionsRefs: []
+  ResponseCurvePacks:
+  - ResponseCurveRef:
+      Id:
+        Value: 2985322908030625776
+  BaseScore:
+    RawValue: 65536
+  MomentumData:
+    Value: 0
+    DecayAmount: 0
+  UseNestedMomentum: 0
+  Cooldown:
+    RawValue: 13107
+  CooldownCancelsMomentum: 1
+  Depth: 1
+--- !u!114 &-5246058658659524458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6e6ef9b06bdd94196e7116323ac560, type: 3}
+  m_Name: InputAgglomerationCount_gV7V1qWCNkq33EI
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_gV7V1qWCNkq33EI
+    Guid:
+      Value: 3608108098701464556
+  AgglomerationCount:
+    Key: AgglomerationCount
+--- !u!114 &-4879817534809986360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9394b45723949248b5b5fd37e557d31, type: 3}
+  m_Name: InputSkillCooldown_66CFGhw6Y023Agu
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputSkillCooldown_66CFGhw6Y023Agu
+    Guid:
+      Value: 4068956359966772743
+  SpellType: 4
+--- !u!114 &-4132949229502597350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9394b45723949248b5b5fd37e557d31, type: 3}
+  m_Name: InputSkillCooldown__CXF7A8emUOTG5H
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputSkillCooldown__CXF7A8emUOTG5H
+    Guid:
+      Value: 4197955877898188181
+  SpellType: 3
+--- !u!114 &-3141583491688080529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -559968234, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: Consideration_Consider Casting Lightningball_oAoSxIBy0EOjGfW
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_Consider
+      Casting Lightningball_oAoSxIBy0EOjGfW
+    Guid:
+      Value: 982970461555512880
+  Label: Consider Casting Lightningball
+  RankRef:
+    Id:
+      Value: 0
+  CommitmentRef:
+    Id:
+      Value: 0
+  NextConsiderationsRefs: []
+  OnEnterActionsRefs:
+  - Id:
+      Value: 2698521817715845887
+  OnUpdateActionsRefs: []
+  OnExitActionsRefs: []
+  ResponseCurvePacks:
+  - ResponseCurveRef:
+      Id:
+        Value: 1039508427797047728
+  - ResponseCurveRef:
+      Id:
+        Value: 2850473927527654016
+  BaseScore:
+    RawValue: 0
+  MomentumData:
+    Value: 0
+    DecayAmount: 0
+  UseNestedMomentum: 0
+  Cooldown:
+    RawValue: 0
+  CooldownCancelsMomentum: 1
+  Depth: 2
+--- !u!114 &-2824601642478772091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_mjogmagjX06Fhoz
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_mjogmagjX06Fhoz
+    Guid:
+      Value: 2207138502543241031
+  Input:
+    Source: 4
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 4197955877898188181
+  Curve:
+    Samples:
+    - RawValue: 65536
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 65536
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 1
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 655
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 1
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &-2634867763123852239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38db39dbf60f0a4ea9f5e4458bcb883, type: 3}
+  m_Name: UseSpellAction_VqvlMWHUNEO7SWZ
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|UseSpellAction_VqvlMWHUNEO7SWZ
+    Guid:
+      Value: 1857158165991882477
+  Label: 
+  Spell:
+    Id:
+      Value: 1268678434176385419
+  TargetEntity:
+    Key: TargetEntity
+--- !u!114 &-2305783119686403777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38db39dbf60f0a4ea9f5e4458bcb883, type: 3}
+  m_Name: UseSpellAction_AxXNQZn3TUC55eP
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|UseSpellAction_AxXNQZn3TUC55eP
+    Guid:
+      Value: 2363521499332721459
+  Label: 
+  Spell:
+    Id:
+      Value: 1385488998651705598
+  TargetEntity:
+    Key: TargetEntity
+--- !u!114 &-2224184853523304444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9394b45723949248b5b5fd37e557d31, type: 3}
+  m_Name: InputSkillCooldown_tac20gT71UCsyAa
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputSkillCooldown_tac20gT71UCsyAa
+    Guid:
+      Value: 2521054863770404250
+  SpellType: 2
+--- !u!114 &-2204421835600285732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 267b1deaaf27c92489a2b0f54f06d6d5, type: 3}
+  m_Name: InputCastleHealth_FDOLnwsW_EqX25y
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputCastleHealth_FDOLnwsW_EqX25y
+    Guid:
+      Value: 3736867459741469005
+--- !u!114 &-1851349381586444070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9394b45723949248b5b5fd37e557d31, type: 3}
+  m_Name: InputSkillCooldown_20t2aspcQE664u8
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputSkillCooldown_20t2aspcQE664u8
+    Guid:
+      Value: 216043739288787007
+  SpellType: 1
+--- !u!114 &-1642288899064254507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_W58mT3R_uk-Ix5e
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_W58mT3R_uk-Ix5e
+    Guid:
+      Value: 2698633983227559277
+  Input:
+    Source: 4
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 618616592037888309
+  Curve:
+    Samples:
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 64000
+    - RawValue: 61440
+    - RawValue: 58880
+    - RawValue: 56320
+    - RawValue: 53760
+    - RawValue: 51200
+    - RawValue: 48640
+    - RawValue: 46080
+    - RawValue: 43520
+    - RawValue: 40960
+    - RawValue: 38400
+    - RawValue: 35840
+    - RawValue: 33280
+    - RawValue: 30720
+    - RawValue: 28160
+    - RawValue: 25600
+    - RawValue: 23040
+    - RawValue: 20480
+    - RawValue: 17920
+    - RawValue: 15360
+    - RawValue: 12800
+    - RawValue: 10240
+    - RawValue: 7680
+    - RawValue: 5120
+    - RawValue: 2560
+    - RawValue: 0
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 327680
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: -16384
+      OutTangent:
+        RawValue: 1
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: 65536
+      OutTangent:
+        RawValue: -16384
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 327680
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: -16384
+      OutTangent:
+        RawValue: 65536
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &-1312945193908478295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_JAXhojojt0W6XiL
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_JAXhojojt0W6XiL
+    Guid:
+      Value: 1039508427797047728
+  Input:
+    Source: 4
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 216043739288787007
+  Curve:
+    Samples:
+    - RawValue: 65536
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 65536
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 1
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 655
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 1
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &-773542104614668592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6e6ef9b06bdd94196e7116323ac560, type: 3}
+  m_Name: InputAgglomerationCount_4Fr2c2zPnkWqVGq
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_4Fr2c2zPnkWqVGq
+    Guid:
+      Value: 618616592037888309
+  AgglomerationCount:
+    Key: AgglomerationCount
+--- !u!114 &-222121711599659667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747800a5e139ed745a90db5ccbdb720c, type: 3}
+  m_Name: InputDistanceToCastle_MJHjwzTSckKfLoP
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputDistanceToCastle_MJHjwzTSckKfLoP
+    Guid:
+      Value: 2887845231851875041
+  DistanceToCastle:
+    Key: DistanceToCastle
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 325773078, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: SpellcasterUT
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT
+    Guid:
+      Value: 233083511577234737
+  ConsiderationsRefs:
+  - Id:
+      Value: 1506711542116276609
+  - Id:
+      Value: 1942133610119315389
+  - Id:
+      Value: 2493597864792469655
+  - Id:
+      Value: 1903294386682274774
+--- !u!114 &572659831380209187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_9Ek3VLZkIUW7JZR
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_9Ek3VLZkIUW7JZR
+    Guid:
+      Value: 2865126109833982519
+  Input:
+    Source: 4
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 3608108098701464556
+  Curve:
+    Samples:
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 65536
+    - RawValue: 0
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 65536
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 64880
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 1
+      OutTangent:
+        RawValue: 1
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 65536
+      OutTangent:
+        RawValue: 65536
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &696895899289359543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6e6ef9b06bdd94196e7116323ac560, type: 3}
+  m_Name: InputAgglomerationCount_Fde0TmTn0UeLLBm
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_Fde0TmTn0UeLLBm
+    Guid:
+      Value: 1921959179476638121
+  AgglomerationCount:
+    Key: AgglomerationCount
+--- !u!114 &935357710874728971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38db39dbf60f0a4ea9f5e4458bcb883, type: 3}
+  m_Name: UseSpellAction_r87f5Ee2hU2c-lf
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|UseSpellAction_r87f5Ee2hU2c-lf
+    Guid:
+      Value: 2698521817715845887
+  Label: 
+  Spell:
+    Id:
+      Value: 1392872171525075207
+  TargetEntity:
+    Key: TargetEntity
+--- !u!114 &1366230314301071882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_l8p_IzXDWEmAlL9
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_l8p_IzXDWEmAlL9
+    Guid:
+      Value: 385507409559676481
+  Input:
+    Source: 4
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 1921959179476638121
+  Curve:
+    Samples:
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 65536
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 65536
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 64880
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: 1
+      OutTangent:
+        RawValue: 1
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &1876685780422161151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74ba5bc9cb7c0849aa0588c89b7dc16, type: 3}
+  m_Name: ScanAction_F1UA9pjNqE2NAZN
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ScanAction_F1UA9pjNqE2NAZN
+    Guid:
+      Value: 1075579874672820776
+  Label: 
+  TargetEntity:
+    Key: TargetEntity
+  AgglomerationCount:
+    Key: AgglomerationCount
+  HealthsSum:
+    Key: HealthsSum
+  DistanceToCastle:
+    Key: DistanceToCastle
+--- !u!114 &2067782953694443989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747800a5e139ed745a90db5ccbdb720c, type: 3}
+  m_Name: InputDistanceToCastle_8aDzKbL8QEKjN7h
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputDistanceToCastle_8aDzKbL8QEKjN7h
+    Guid:
+      Value: 1848778872919412322
+  DistanceToCastle:
+    Key: DistanceToCastle
+--- !u!114 &2435572321151027423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -559968234, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: Consideration_Consider Idling_JDQtBgY4GEykK-U
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_Consider
+      Idling_JDQtBgY4GEykK-U
+    Guid:
+      Value: 1942133610119315389
+  Label: Consider Idling
+  RankRef:
+    Id:
+      Value: 0
+  CommitmentRef:
+    Id:
+      Value: 0
+  NextConsiderationsRefs: []
+  OnEnterActionsRefs: []
+  OnUpdateActionsRefs: []
+  OnExitActionsRefs: []
+  ResponseCurvePacks:
+  - ResponseCurveRef:
+      Id:
+        Value: 1865592537838157680
+  BaseScore:
+    RawValue: 131
+  MomentumData:
+    Value: 0
+    DecayAmount: 0
+  UseNestedMomentum: 0
+  Cooldown:
+    RawValue: 0
+  CooldownCancelsMomentum: 1
+  Depth: 1
+--- !u!114 &2577028384443988534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_TmOhIcxKxEGAovB
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_TmOhIcxKxEGAovB
+    Guid:
+      Value: 2850473927527654016
+  Input:
+    Source: 4
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 4379328174910511222
+  Curve:
+    Samples:
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 64000
+    - RawValue: 61440
+    - RawValue: 58880
+    - RawValue: 56320
+    - RawValue: 53760
+    - RawValue: 51200
+    - RawValue: 48640
+    - RawValue: 46080
+    - RawValue: 43520
+    - RawValue: 40960
+    - RawValue: 38400
+    - RawValue: 35840
+    - RawValue: 33280
+    - RawValue: 30720
+    - RawValue: 28160
+    - RawValue: 25600
+    - RawValue: 23040
+    - RawValue: 20480
+    - RawValue: 17920
+    - RawValue: 15360
+    - RawValue: 12800
+    - RawValue: 10240
+    - RawValue: 7680
+    - RawValue: 5120
+    - RawValue: 2560
+    - RawValue: 0
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 327680
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: -16384
+      OutTangent:
+        RawValue: 1
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: 65536
+      OutTangent:
+        RawValue: -16384
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 327680
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: -16384
+      OutTangent:
+        RawValue: 65536
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &2628284652052286477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6e6ef9b06bdd94196e7116323ac560, type: 3}
+  m_Name: InputAgglomerationCount_CsUf-ch0UUuUONF
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputAgglomerationCount_CsUf-ch0UUuUONF
+    Guid:
+      Value: 1069132456945041041
+  AgglomerationCount:
+    Key: AgglomerationCount
+--- !u!114 &4172360593271880691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38db39dbf60f0a4ea9f5e4458bcb883, type: 3}
+  m_Name: UseSpellAction_tzQamGTbFUutrld
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|UseSpellAction_tzQamGTbFUutrld
+    Guid:
+      Value: 1189962413294542220
+  Label: 
+  Spell:
+    Id:
+      Value: 1529982308678057475
+  TargetEntity:
+    Key: TargetEntity
+--- !u!114 &4657284159430694004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -559968234, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: Consideration_Consider Casting Iceball_AVru-bprNkiayKH
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_Consider
+      Casting Iceball_AVru-bprNkiayKH
+    Guid:
+      Value: 2204570101796877534
+  Label: Consider Casting Iceball
+  RankRef:
+    Id:
+      Value: 0
+  CommitmentRef:
+    Id:
+      Value: 0
+  NextConsiderationsRefs: []
+  OnEnterActionsRefs:
+  - Id:
+      Value: 1857158165991882477
+  OnUpdateActionsRefs: []
+  OnExitActionsRefs: []
+  ResponseCurvePacks:
+  - ResponseCurveRef:
+      Id:
+        Value: 3553511619898309890
+  - ResponseCurveRef:
+      Id:
+        Value: 2668171207778741252
+  - ResponseCurveRef:
+      Id:
+        Value: 2698633983227559277
+  BaseScore:
+    RawValue: 0
+  MomentumData:
+    Value: 0
+    DecayAmount: 0
+  UseNestedMomentum: 0
+  Cooldown:
+    RawValue: 0
+  CooldownCancelsMomentum: 1
+  Depth: 2
+--- !u!114 &4947906829931625993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_FA2BNPMz4EuDknG
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_FA2BNPMz4EuDknG
+    Guid:
+      Value: 2446569137576584609
+  Input:
+    Source: 4
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 1848778872919412322
+  Curve:
+    Samples:
+    - RawValue: 65536
+    - RawValue: 65260
+    - RawValue: 65062
+    - RawValue: 64921
+    - RawValue: 64821
+    - RawValue: 64740
+    - RawValue: 64659
+    - RawValue: 64561
+    - RawValue: 64424
+    - RawValue: 64231
+    - RawValue: 63962
+    - RawValue: 63597
+    - RawValue: 63119
+    - RawValue: 62507
+    - RawValue: 61742
+    - RawValue: 60805
+    - RawValue: 59677
+    - RawValue: 58339
+    - RawValue: 56772
+    - RawValue: 54956
+    - RawValue: 52872
+    - RawValue: 50501
+    - RawValue: 47824
+    - RawValue: 44822
+    - RawValue: 41475
+    - RawValue: 37765
+    - RawValue: 33672
+    - RawValue: 29177
+    - RawValue: 24260
+    - RawValue: 18904
+    - RawValue: 13087
+    - RawValue: 6792
+    - RawValue: 0
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 1638400
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: -211366
+      OutTangent:
+        RawValue: -410
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 1638400
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: -9021
+      OutTangent:
+        RawValue: -9021
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &5877514990966877214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9394b45723949248b5b5fd37e557d31, type: 3}
+  m_Name: InputSkillCooldown_YBdJmITHuEWRDYx
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|InputSkillCooldown_YBdJmITHuEWRDYx
+    Guid:
+      Value: 3966562886545922573
+  SpellType: 0
+--- !u!114 &6960512975879510820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_H8ks5mNJEkKYgys
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_H8ks5mNJEkKYgys
+    Guid:
+      Value: 2985322908030625776
+  Input:
+    Source: 1
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 0
+  Curve:
+    Samples:
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    - RawValue: 0
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 65536
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 0
+      OutTangent:
+        RawValue: 0
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &7891160183151817673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1651718470, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: ResponseCurve_Z4ZDwr2m-EmLGEe
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|ResponseCurve_Z4ZDwr2m-EmLGEe
+    Guid:
+      Value: 4425855700688186480
+  Input:
+    Source: 4
+    Key: 
+    DefaultValue:
+      RawValue: 0
+    FunctionRef:
+      Id:
+        Value: 1069132456945041041
+  Curve:
+    Samples:
+    - RawValue: 0
+    - RawValue: 3691
+    - RawValue: 7207
+    - RawValue: 10551
+    - RawValue: 13726
+    - RawValue: 16737
+    - RawValue: 19586
+    - RawValue: 22278
+    - RawValue: 24817
+    - RawValue: 27205
+    - RawValue: 29446
+    - RawValue: 31545
+    - RawValue: 33505
+    - RawValue: 35329
+    - RawValue: 37022
+    - RawValue: 38587
+    - RawValue: 40027
+    - RawValue: 41346
+    - RawValue: 42549
+    - RawValue: 43638
+    - RawValue: 44617
+    - RawValue: 45491
+    - RawValue: 46262
+    - RawValue: 46934
+    - RawValue: 47512
+    - RawValue: 47998
+    - RawValue: 48396
+    - RawValue: 48710
+    - RawValue: 48945
+    - RawValue: 49102
+    - RawValue: 49187
+    - RawValue: 49202
+    - RawValue: 49152
+    PreWrapMode: 8
+    PostWrapMode: 8
+    StartTime:
+      RawValue: 196608
+    EndTime:
+      RawValue: 327680
+    Resolution: 32
+    OriginalPreWrapMode: 0
+    OriginalPostWrapMode: 0
+    Keys:
+    - Time:
+        RawValue: 196608
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 60494
+      OutTangent:
+        RawValue: 60494
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 327680
+      Value:
+        RawValue: 49152
+      InTangent:
+        RawValue: -1311
+      OutTangent:
+        RawValue: -1311
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 0
+      WeightedMode: 0
+  Clamp01: 1
+  MultiplyFactor:
+    RawValue: 65536
+--- !u!114 &8983286482235559437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -559968234, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: Consideration_There is No Useful Spell_q8rHpEhKN0i9d3F
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/UT_Assets/SpellcasterUT|Consideration_There
+      is No Useful Spell_q8rHpEhKN0i9d3F
+    Guid:
+      Value: 4239996338628359049
+  Label: There is No Useful Spell
+  RankRef:
+    Id:
+      Value: 0
+  CommitmentRef:
+    Id:
+      Value: 0
+  NextConsiderationsRefs: []
+  OnEnterActionsRefs: []
+  OnUpdateActionsRefs: []
+  OnExitActionsRefs: []
+  ResponseCurvePacks:
+  - ResponseCurveRef:
+      Id:
+        Value: 237941480966761824
+  BaseScore:
+    RawValue: 1310
+  MomentumData:
+    Value: 0
+    DecayAmount: 0
+  UseNestedMomentum: 0
+  Cooldown:
+    RawValue: 0
+  CooldownCancelsMomentum: 1
+  Depth: 2

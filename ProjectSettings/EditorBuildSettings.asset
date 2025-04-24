@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Photon/QuantumMenu/QuantumSampleMenu.unity
+    guid: f23d3edd333e1dc449a4688e04123759
+  - enabled: 1
+    path: Assets/Scenes/CollectorsSample.unity
+    guid: df0313746c62ae7468d022915b562e1f
+  - enabled: 1
+    path: Assets/Scenes/SpellcasterSample.unity
+    guid: cccece8435b68024f9174113cc6bd18c
+  m_configObjects: {}

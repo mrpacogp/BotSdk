@@ -1,0 +1,373 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e31f72e4c99a364189783be71ef7a2e, type: 3}
+  m_Name: QuantumEditorSettings
+  m_EditorClassIdentifier: 
+  AssetSearchPaths:
+  - Assets
+  DefaultNewAssetsLocation: Assets/QuantumUser/Resources
+  UseQuantumUnityDBAssetPostprocessor: 1
+  UseQuantumToolbarUtilities: 1
+  QuantumToolbarZone: 0
+  UsePhotonAppVersionsPostprocessor: 1
+  EntityComponentInspectorMode: 2
+  AutoBuildOnSceneSave: 96
+  AutoBuildOnPlaymodeChanged: 96
+  AutoBuildOnBuild: 96
+  AssetGuidOverrides:
+  - Asset: {fileID: 4633065295874292212, guid: c12605e766ecc2e4aa4e93359e26e39e, type: 3}
+    Guid:
+      Value: 329182917947367162
+  - Asset: {fileID: 3473410228903124354, guid: 0f37bf8a9e037304b835a65db61c491e, type: 3}
+    Guid:
+      Value: 1452297143288246761
+  - Asset: {fileID: 11400000, guid: 470fe6908c63939468d3550b7e3182ec, type: 2}
+    Guid:
+      Value: 270268453331261020
+  - Asset: {fileID: 11400000, guid: 9e3593e8f91fb094ca2428fdd4cebd90, type: 2}
+    Guid:
+      Value: 1710471675203725834
+  - Asset: {fileID: 11400000, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 2011324127871153002
+  - Asset: {fileID: 2340565438516867163, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 3527842348051315155
+  - Asset: {fileID: -5646599687713863693, guid: ee69c7cbb2918e0498207c2cf34d52c8,
+      type: 2}
+    Guid:
+      Value: 226970481612988451
+  - Asset: {fileID: 4155366405908577197, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 313021203496315025
+  - Asset: {fileID: -6457952512597340699, guid: ee69c7cbb2918e0498207c2cf34d52c8,
+      type: 2}
+    Guid:
+      Value: 415182397265773810
+  - Asset: {fileID: 1755405264531085306, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 894074335824034712
+  - Asset: {fileID: 6854917177060983292, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 26529799081000346
+  - Asset: {fileID: 4708635146511538462, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 4367626473759101840
+  - Asset: {fileID: 7168255189064654306, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 2948202281121739668
+  - Asset: {fileID: 723035642231322852, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 833653448371046745
+  - Asset: {fileID: 7397270965942718716, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 3834285535646523217
+  - Asset: {fileID: 262202434419859469, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 490120032023811416
+  - Asset: {fileID: 6167302072662292763, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 3290693499293950121
+  - Asset: {fileID: 4398758100020711461, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 764732636311929598
+  - Asset: {fileID: -961841357231839161, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 3384067041136242142
+  - Asset: {fileID: 2498642544778186976, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 396045907540103328
+  - Asset: {fileID: -2562745018122526494, guid: ee69c7cbb2918e0498207c2cf34d52c8,
+      type: 2}
+    Guid:
+      Value: 26044280555436397
+  - Asset: {fileID: -3411997696485276366, guid: ee69c7cbb2918e0498207c2cf34d52c8,
+      type: 2}
+    Guid:
+      Value: 1641350616230623897
+  - Asset: {fileID: -5886596352299502915, guid: ee69c7cbb2918e0498207c2cf34d52c8,
+      type: 2}
+    Guid:
+      Value: 2470029992444953340
+  - Asset: {fileID: 7651732387761931814, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 4416348472217903229
+  - Asset: {fileID: 4845229928943727592, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 2791491756957529163
+  - Asset: {fileID: 11400000, guid: 20566ad14ec0b8544bf1fb61f579e0c9, type: 2}
+    Guid:
+      Value: 3117678447127958250
+  - Asset: {fileID: 11400000, guid: 76d803861545f404ca3e320f47f82645, type: 2}
+    Guid:
+      Value: 299305904389882526
+  - Asset: {fileID: 1125060946640134285, guid: 76d803861545f404ca3e320f47f82645, type: 2}
+    Guid:
+      Value: 408209697461276551
+  - Asset: {fileID: 8639841122773936964, guid: 76d803861545f404ca3e320f47f82645, type: 2}
+    Guid:
+      Value: 1336571502694835023
+  - Asset: {fileID: 8202430233862386451, guid: 76d803861545f404ca3e320f47f82645, type: 2}
+    Guid:
+      Value: 2489521402717425130
+  - Asset: {fileID: -7066782460345198682, guid: 76d803861545f404ca3e320f47f82645,
+      type: 2}
+    Guid:
+      Value: 597401158826413534
+  - Asset: {fileID: 182798828999399716, guid: 76d803861545f404ca3e320f47f82645, type: 2}
+    Guid:
+      Value: 2930271148810082170
+  - Asset: {fileID: 5309625658522703510, guid: 76d803861545f404ca3e320f47f82645, type: 2}
+    Guid:
+      Value: 3227345688627223671
+  - Asset: {fileID: -7148335022528923471, guid: 76d803861545f404ca3e320f47f82645,
+      type: 2}
+    Guid:
+      Value: 4519541225221507308
+  - Asset: {fileID: 5812399477036208134, guid: 76d803861545f404ca3e320f47f82645, type: 2}
+    Guid:
+      Value: 741146582059223069
+  - Asset: {fileID: -879298540878085171, guid: 76d803861545f404ca3e320f47f82645, type: 2}
+    Guid:
+      Value: 3595593222602555302
+  - Asset: {fileID: 3679230018624754624, guid: 76d803861545f404ca3e320f47f82645, type: 2}
+    Guid:
+      Value: 4115441448600793181
+  - Asset: {fileID: 368071343737348366, guid: 76d803861545f404ca3e320f47f82645, type: 2}
+    Guid:
+      Value: 725161357877564341
+  - Asset: {fileID: 11400000, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 233083511577234737
+  - Asset: {fileID: -4879817534809986360, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 4068956359966772743
+  - Asset: {fileID: -9170023182986013602, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 1865592537838157680
+  - Asset: {fileID: -2824601642478772091, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 2207138502543241031
+  - Asset: {fileID: 696895899289359543, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 1921959179476638121
+  - Asset: {fileID: 5877514990966877214, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 3966562886545922573
+  - Asset: {fileID: -8625341453440005024, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 3553511619898309890
+  - Asset: {fileID: 1366230314301071882, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 385507409559676481
+  - Asset: {fileID: -2224184853523304444, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 2521054863770404250
+  - Asset: {fileID: -1851349381586444070, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 216043739288787007
+  - Asset: {fileID: -1312945193908478295, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 1039508427797047728
+  - Asset: {fileID: -8628731096705412692, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 4379328174910511222
+  - Asset: {fileID: -5246058658659524458, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 3608108098701464556
+  - Asset: {fileID: -5877450022426076368, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 2668171207778741252
+  - Asset: {fileID: -1642288899064254507, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 2698633983227559277
+  - Asset: {fileID: -7198860663004252726, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 4368371598511292215
+  - Asset: {fileID: 2628284652052286477, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 1069132456945041041
+  - Asset: {fileID: 572659831380209187, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 2865126109833982519
+  - Asset: {fileID: 2577028384443988534, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 2850473927527654016
+  - Asset: {fileID: 4947906829931625993, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 2446569137576584609
+  - Asset: {fileID: -222121711599659667, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 2887845231851875041
+  - Asset: {fileID: -6390716100837299782, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 1257784644588916051
+  - Asset: {fileID: -2204421835600285732, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 3736867459741469005
+  - Asset: {fileID: -4132949229502597350, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 4197955877898188181
+  - Asset: {fileID: 2067782953694443989, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 1848778872919412322
+  - Asset: {fileID: -8157816655088186381, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 489604183328813417
+  - Asset: {fileID: 7891160183151817673, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 4425855700688186480
+  - Asset: {fileID: 6960512975879510820, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 2985322908030625776
+  - Asset: {fileID: -773542104614668592, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 618616592037888309
+  - Asset: {fileID: -5656727128318414872, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 3056909839096446785
+  - Asset: {fileID: -5929826858342996985, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 237941480966761824
+  - Asset: {fileID: -6293655045118242992, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 890667356463697764
+  - Asset: {fileID: -8238166067781537566, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 2174552693583499731
+  - Asset: {fileID: -9017538539374946067, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 1506711542116276609
+  - Asset: {fileID: -8691441445037962042, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 1308336231555509791
+  - Asset: {fileID: 2435572321151027423, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 1942133610119315389
+  - Asset: {fileID: -5670078798652522150, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 2493597864792469655
+  - Asset: {fileID: -6180963320257028871, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 2070399489796205725
+  - Asset: {fileID: -2305783119686403777, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 2363521499332721459
+  - Asset: {fileID: 4657284159430694004, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 2204570101796877534
+  - Asset: {fileID: -2634867763123852239, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 1857158165991882477
+  - Asset: {fileID: -3141583491688080529, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 982970461555512880
+  - Asset: {fileID: 935357710874728971, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 2698521817715845887
+  - Asset: {fileID: -7037547725962883500, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 642371157648703809
+  - Asset: {fileID: 4172360593271880691, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 1189962413294542220
+  - Asset: {fileID: 8983286482235559437, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 4239996338628359049
+  - Asset: {fileID: -5374914487075381403, guid: d474bc8742bffb645a881646f1668173,
+      type: 2}
+    Guid:
+      Value: 1903294386682274774
+  - Asset: {fileID: 1876685780422161151, guid: d474bc8742bffb645a881646f1668173, type: 2}
+    Guid:
+      Value: 1075579874672820776
+  - Asset: {fileID: -7510420850836216341, guid: 90f70050a7c167e4188323dce8653827,
+      type: 3}
+    Guid:
+      Value: 3139125363805496782
+  - Asset: {fileID: 6145657815609789443, guid: 224e458173300f64ea484b9bde32155b, type: 3}
+    Guid:
+      Value: 3461616865115653532
+  - Asset: {fileID: 3118004259937088524, guid: a325abc2a0e0574419d502b6dfdc2216, type: 3}
+    Guid:
+      Value: 1990677074669805706
+  - Asset: {fileID: -8478636819631368385, guid: 2fd6cc198f3f1334e81be5b976184d1f,
+      type: 3}
+    Guid:
+      Value: 3002195154082403526
+  - Asset: {fileID: 0}
+    Guid:
+      Value: 3056909839096446785
+  - Asset: {fileID: 2791954357029241857, guid: ee69c7cbb2918e0498207c2cf34d52c8, type: 2}
+    Guid:
+      Value: 2301657569280510517
+  - Asset: {fileID: 11400000, guid: 98fccc81f0f5f5541a88d6da1896016c, type: 2}
+    Guid:
+      Value: 1
+  - Asset: {fileID: 11400000, guid: b199eb2129ec98e408b3fa8a106d9403, type: 2}
+    Guid:
+      Value: 2
+  - Asset: {fileID: 11400000, guid: ef0ef9bc2a72d874bb5a3445dd38c1e9, type: 2}
+    Guid:
+      Value: 3936339046640904086
+  - Asset: {fileID: 11400000, guid: 2ea2a06c76cc35d49be8a25324e787d4, type: 2}
+    Guid:
+      Value: 4
+  - Asset: {fileID: 11400000, guid: 6986abea4748d7d4099d49d11e593ce8, type: 2}
+    Guid:
+      Value: 5
+  - Asset: {fileID: 11400000, guid: 6e939e96f7d70e7409249d368e7cf863, type: 2}
+    Guid:
+      Value: 3
+  - Asset: {fileID: 11400000, guid: 0788f0f45bd750940a27cf97b03a6fb1, type: 2}
+    Guid:
+      Value: 570239194937243124
+  - Asset: {fileID: 8199239992207281422, guid: 0788f0f45bd750940a27cf97b03a6fb1, type: 2}
+    Guid:
+      Value: 222653825814108901
+  - Asset: {fileID: 7357003114254500740, guid: 0788f0f45bd750940a27cf97b03a6fb1, type: 2}
+    Guid:
+      Value: 4469369633854219213
+  - Asset: {fileID: -46422845241808121, guid: 0788f0f45bd750940a27cf97b03a6fb1, type: 2}
+    Guid:
+      Value: 3793432529399984933
+  - Asset: {fileID: 0}
+    Guid:
+      Value: 3809334883095859273

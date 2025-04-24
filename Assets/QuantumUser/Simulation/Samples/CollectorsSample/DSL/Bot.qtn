@@ -1,0 +1,10 @@
+component Bot
+{
+    Input Input;
+}
+
+global
+{
+    FP FillRoomTimer;
+    bool AlreadyFilledRoom;
+}

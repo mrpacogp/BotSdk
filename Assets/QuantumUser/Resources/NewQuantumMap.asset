@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1722638350, guid: b156eeaae3f741b40af66649a4748430, type: 3}
+  m_Name: NewQuantumMap
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/NewQuantumMap
+    Guid:
+      Value: 488345340936270780
+  UserAsset:
+    Id:
+      Value: 0
+  Scene: SpellcasterSample
+  ScenePath: Assets/Scenes/SpellcasterSample.unity
+  SceneGuid: cccece8435b68024f9174113cc6bd18c
+  WorldSize: 256
+  BucketsCount: 16
+  BucketsSubdivisions: 8
+  BucketingAxis: 0
+  SortingAxis: 1
+  SceneMeshCellSize:
+    RawValue: 262144
+  TriangleMeshCellSize: -1
+  StaticColliders3DTrianglesData:
+    Id:
+      Value: 329758555695518402
+  SerializeTrianglesMetadata: 0
+  GridSizeX: 64
+  GridSizeY: 64
+  GridNodeSize: 4
+  NavMeshLinks: []
+  Regions: []
+  StaticColliders2D: []
+  StaticColliders3D:
+  - Rotation:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: 0
+      Z:
+        RawValue: 0
+      W:
+        RawValue: 65536
+    Position:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: -32768
+      Z:
+        RawValue: 0
+    PhysicsMaterial:
+      Id:
+        Value: 0
+    ShapeType: 2
+    SphereRadius:
+      RawValue: 0
+    CapsuleRadius:
+      RawValue: 0
+    CapsuleHeight:
+      RawValue: 0
+    BoxExtents:
+      X:
+        RawValue: 3276800
+      Y:
+        RawValue: 32768
+      Z:
+        RawValue: 3276800
+    SmoothSphereMeshCollisions: 0
+    StaticData:
+      Name: Ground
+      Tag: Untagged
+      Layer: 0
+      Asset:
+        Id:
+          Value: 0
+      IsTrigger: 0
+      ColliderIndex: 0
+      MutableMode: 0
+  MapEntities:
+  - Components:
+    - rid: 7346766212367384576
+  - Components:
+    - rid: 2224325721789038592
+    - rid: 2224325721789038593
+    - rid: 2224325721789038594
+    - rid: 2224325721789038595
+  - Components:
+    - rid: 6322020335898066944
+    - rid: 6322020335898066945
+    - rid: 6322020335898066946
+    - rid: 6322020335898066947
+    - rid: 6322020335898066948
+  SerializedTriangleDataUncompressedSize: 8
+  references:
+    version: 2
+    RefIds:
+    - rid: 2224325721789038592
+      type: {class: Transform3DPrototype, ns: Quantum.Prototypes, asm: Quantum.Engine}
+      data:
+        Position:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 131072
+          Z:
+            RawValue: -786432
+        Rotation:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+    - rid: 2224325721789038593
+      type: {class: AIBlackboardComponentPrototype, ns: Quantum.Prototypes, asm: Quantum.BotSDK.Core}
+      data:
+        Board:
+          Id:
+            Value: 0
+        Entries: []
+    - rid: 2224325721789038594
+      type: {class: SpellcasterPrototype, ns: Quantum.Prototypes, asm: Quantum.Simulation}
+      data:
+        SpellsCooldown: []
+    - rid: 2224325721789038595
+      type: {class: UTAgentPrototype, ns: Quantum.Prototypes, asm: Quantum.BotSDK.Core}
+      data:
+        UtilityReasoner:
+          UTRoot:
+            Id:
+              Value: 233083511577234737
+        Config:
+          Id:
+            Value: 0
+    - rid: 6322020335898066944
+      type: {class: Transform3DPrototype, ns: Quantum.Prototypes, asm: Quantum.Engine}
+      data:
+        Position:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 65536
+          Z:
+            RawValue: -655360
+        Rotation:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+          Z:
+            RawValue: 0
+    - rid: 6322020335898066945
+      type: {class: PhysicsCollider3DPrototype, ns: Quantum.Prototypes, asm: Quantum.Engine}
+      data:
+        ShapeConfig:
+          ShapeType: 2
+          SphereRadius:
+            RawValue: 0
+          CapsuleRadius:
+            RawValue: 0
+          CapsuleHeight:
+            RawValue: 0
+          PositionOffset:
+            X:
+              RawValue: 0
+            Y:
+              RawValue: 0
+            Z:
+              RawValue: 0
+          BoxExtents:
+            X:
+              RawValue: 2293760
+            Y:
+              RawValue: 65536
+            Z:
+              RawValue: 49152
+          RotationOffset:
+            X:
+              RawValue: 0
+            Y:
+              RawValue: 0
+            Z:
+              RawValue: 0
+          UserTag: 0
+          IsPersistent: 1
+          CompoundShapes: []
+        Layer: 0
+        IsTrigger: 1
+        PhysicsMaterial:
+          Id:
+            Value: 0
+    - rid: 6322020335898066946
+      type: {class: PhysicsCallbacks3DPrototype, ns: Quantum.Prototypes, asm: Quantum.Engine}
+      data:
+        CallbackFlags:
+          Value: 128
+    - rid: 6322020335898066947
+      type: {class: CastlePrototype, ns: Quantum.Prototypes, asm: Quantum.Simulation}
+      data:
+        _empty_prototype_dummy_field_: 0
+    - rid: 6322020335898066948
+      type: {class: HealthPrototype, ns: Quantum.Prototypes, asm: Quantum.Simulation}
+      data:
+        MaxValue:
+          RawValue: 1310720
+        Current:
+          RawValue: 0
+    - rid: 7346766212367384576
+      type: {class: Transform2DPrototype, ns: Quantum.Prototypes, asm: Quantum.Engine}
+      data:
+        Position:
+          X:
+            RawValue: 0
+          Y:
+            RawValue: 0
+        Rotation:
+          RawValue: 0

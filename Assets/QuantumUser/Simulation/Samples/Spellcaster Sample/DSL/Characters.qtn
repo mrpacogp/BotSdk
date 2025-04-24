@@ -1,0 +1,31 @@
+﻿component Fighter
+{
+	FP Power;
+}
+
+component Movement
+{
+	[HideInInspector] FP OriginalSpeed;
+}
+
+component Health
+{
+	FP MaxValue;
+	[HideInInspector] FP Current;
+}
+
+singleton component Spellcaster
+{
+	[HideInInspector] dictionary<ESpell, FP> SpellsCooldown;
+}
+
+singleton component Castle
+{
+}
+
+component Summoner
+{
+	FP Interval;
+	AssetRef<EntityPrototype> ToSummon;
+	[HideInInspector] FP Timer;
+}
